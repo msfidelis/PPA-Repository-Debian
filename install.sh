@@ -2,7 +2,7 @@
 echo "INSTALLING PPA DEBIAN UTILITY"
 
 if [[ $EUID -ne 0 ]]; then
-	echo -e "Este Script deve ser executado como root \n"
+	echo -e "This script require a administrator privileges \n"
 	exit 1
 else
 
