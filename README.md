@@ -1,5 +1,5 @@
 # PPA-Repository-Debian
-Simples Bash Script to add Ubuntu PPA Repository on Debian Distros. 
+Simple Bash Script to add Ubuntu PPA Repository on Debian Distros. 
 
 #Clone a project 
  ``` # git clone https://github.com/msfidelis/PPA-Repository-Debian.git ```
@@ -17,3 +17,4 @@ Simples Bash Script to add Ubuntu PPA Repository on Debian Distros.
   # sudo add-apt-repository ppa:ppa-name
 ```
  
+:D 
