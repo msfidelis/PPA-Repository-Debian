@@ -13,7 +13,7 @@ then
 	echo "$0 ppa:user/ppa-name"
 else
 	echo "$ppa_name"
-	echo "deb http://ppa.launchpad.net/$ppa_name/ubuntu lucid main" >> /etc/apt/sources.list
+	echo "deb http://ppa.launchpad.net/$ppa_name/ubuntu eoan main" >> /etc/apt/sources.list
 	apt-get update >> /dev/null 2> /tmp/${NAME}_apt_add_key.txt
 	key=`cat /tmp/${NAME}_apt_add_key.txt | cut -d":" -f6 | cut -d" " -f3`
 	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $key
